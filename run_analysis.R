@@ -61,4 +61,4 @@ aggr.data <- aggregate(gcdata.mean.std[, 3:ncol(gcdata.mean.std)],
 
 # Write the data for assignment upload
 write.table(format(aggr.data, scientific=T), "gctidy.txt",
-            row.names=F, col.names=F, quote=2)
+            row.names=F, quote=2)
